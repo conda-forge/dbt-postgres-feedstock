@@ -1,5 +1,5 @@
 {% set name = "dbt-postgres" %}
-{% set version = "1.8.1" %}
+{% set version = "1.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dbt_postgres-{{ version }}.tar.gz
-  sha256: 1685989277c1222b7feec4c78a4bfcc4ad864d52072624a7db1e00c46c8b0c4b
+  sha256: 23b302626dd11e90594ccff0347148252c37af1a1e8c8710bc9c03b05337f3d3
 
 build:
   noarch: python
